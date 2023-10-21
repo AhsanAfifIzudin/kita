@@ -8,14 +8,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+   <!-- Open the modal using ID.showModal() method -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <h3 class="font-bold text-lg">Hello!</h3>
-    <p class="py-4">Yakin mau kepoin kita?...</p>
+    <p class="py-4">Press ESC key or click the button below to close</p>
     <div class="modal-action">
       <form method="dialog">
         <!-- if there is a button in form, it will close the modal -->
-        <button class="btn" onclick="my_modal_5.showModal()">Yakin</button>
+        <button class="btn">Close</button>
       </form>
     </div>
   </div>
@@ -28,7 +29,7 @@
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">Halooo...</h1>
             <p class="mb-5">Ini buat kenang-kenangan kita selama ini yakkk...</p>
-            <button class="btn btn-primary" onclick="my_modal_1.showModal()">Selengkapnya</button></a>
+           <button class="btn" onclick="my_modal_5.showModal()">Selengkapnya</button>
           </div>
         </div>
       </div>
